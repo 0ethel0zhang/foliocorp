@@ -8,7 +8,7 @@ const ToolCards: React.FC = () => {
       title: "Folio",
       url: "https://folio.bringezback.com",
       logo: "https://github.com/0ethel0zhang/headshots/raw/refs/heads/main/headshotify_favicon.ico",
-      placeholder: "https://private-user-images.githubusercontent.com/31772950/507362464-ea1d4090-f720-4d0c-9fd2-1cdcb2e40053.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njc4MzcyMTMsIm5iZiI6MTc2NzgzNjkxMywicGF0aCI6Ii8zMTc3Mjk1MC81MDczNjI0NjQtZWExZDQwOTAtZjcyMC00ZDBjLTlmZDItMWNkY2IyZTQwMDUzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTA4VDAxNDgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYyMjUxMmM2NTIxMGI2NWNmMWU1MjRlYjJjMjIzNWViNDEwMzhhMzE3YjdiNjAwNDcxNjE4MzA4MTQyZDVmNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.C_aMmRc_OeHKdCOjazsKTvnTFkJnamtWnjcjXI0WeLo",
+      placeholder: "https://github.com/user-attachments/assets/ea1d4090-f720-4d0c-9fd2-1cdcb2e40053",
       icon: <Video className="w-8 h-8" />,
       tag: "Video Extraction",
       desc: "Effortlessly grab high-quality stills from video files for quick download and review.",
