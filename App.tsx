@@ -47,6 +47,27 @@ const App: React.FC = () => {
           </div>
         </section>
 
+        <div className="container mx-auto px-6 py-20 relative bg-black/50" id="testimonials">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">Testimonials</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="glass p-6 rounded-2xl border border-pink-500/20">
+              <p className="text-gray-400">
+                "Great job! It's such a good idea ... to pick out the best angle, lighting, etc from the bunch." - DL
+              </p>
+            </div>
+            <div className="glass p-6 rounded-2xl border border-pink-500/20">
+              <p className="text-gray-400">
+                "Makes sense if I have a couple hundreads of piuctures and don't want to go through them manually." - EM
+              </p>
+            </div>
+            <div className="glass p-6 rounded-2xl border border-pink-500/20">
+              <p className="text-gray-400">
+                "I definitely will be using this with my wedding video ... now I have hope thanks to your tool!" - AN
+              </p>
+            </div>
+          </div>
+        </div>
+
         <section className="py-12 border-t border-white/5">
           <div className="container mx-auto px-6 text-center">
             <div className="max-w-4xl mx-auto glass p-12 rounded-3xl border border-pink-500/20">
@@ -66,10 +87,11 @@ const App: React.FC = () => {
             </div>
           </div>
         </section>
-      </main>
+
+      </main >
 
       <Footer />
-    </div>
+    </div >
   );
 };
 

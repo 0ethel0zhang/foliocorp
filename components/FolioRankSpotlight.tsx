@@ -16,7 +16,7 @@ const FolioRankSpotlight: React.FC = () => {
   const features = [
     { icon: <Star className="w-5 h-5 text-yellow-400" />, title: "Personalized Taste Profile", desc: "Trains a model on your unique aesthetic to cull photos based on learned taste." },
     { icon: <Aperture className="w-5 h-5 text-pink-400" />, title: "Technical Analysis", desc: "Auto-identifies blur, overexposed, and underexposed shots instantly." },
-    { icon: <Eye className="w-5 h-5 text-purple-400" />, title: "Smart Eye Detection", desc: "Locates and flags photos where subjects have closed eyes." },
+    { icon: <Eye className="w-5 h-5 text-purple-400" />, title: "Smart Eye Detection", desc: "Detects when subjects have closed eyes or awkward expressions." },
   ];
 
   const platforms = [
@@ -70,7 +70,11 @@ const FolioRankSpotlight: React.FC = () => {
               ))}
             </div>
           </div>
-
+          <div className="pt-4 border-t border-white/10">
+            <p className="text-xl text-gray-400 leading-relaxed">
+              It's not just us saying, it's tested by 3rd party users to perform at industry-leading accuracy (70%+). <a href="https://docs.google.com/presentation/d/185AMobhAN5VM8ekCdShEoB7ORgDGpefdPFRZVgU74UI/edit?slide=id.g3b5d5190cf4_0_1#slide=id.g3b5d5190cf4_0_1" className="text-pink-400 hover:underline">Read the report</a> & <a href="#testimonials" className="text-pink-400 hover:underline">Read the testimonials</a>.
+            </p>
+          </div>
           <a
             href="https://foliorankai.bringezback.com/"
             className="inline-flex px-8 py-3 bg-pink-300 text-black font-bold rounded-xl hover:bg-pink-50 transition-all items-center gap-2 mt-4"
