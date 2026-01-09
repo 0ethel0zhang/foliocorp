@@ -60,7 +60,7 @@ const FolioRankSpotlight: React.FC = () => {
             </p>
           </div>
 
-          <div className="pt-8 border-t border-white/10">
+          <div className="pt-4 border-t border-white/10">
             <h4 className="text-sm font-semibold uppercase tracking-widest text-gray-500 mb-6">Available Platforms</h4>
             <div className="flex flex-wrap gap-8">
               {platforms.map((p, i) => (

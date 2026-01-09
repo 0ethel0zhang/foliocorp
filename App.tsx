@@ -57,7 +57,7 @@ const App: React.FC = () => {
             </div>
             <div className="glass p-6 rounded-2xl border border-pink-500/20">
               <p className="text-gray-400">
-                "Makes sense if I have a couple hundreads of piuctures and don't want to go through them manually." - EM
+                "Makes sense if I have a couple hundreds of pictures and don't want to go through them manually." - EM
               </p>
             </div>
             <div className="glass p-6 rounded-2xl border border-pink-500/20">
