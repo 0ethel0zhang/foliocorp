@@ -54,6 +54,12 @@ const FolioRankSpotlight: React.FC = () => {
             ))}
           </div>
 
+          <div className="pt-4 border-t border-white/10">
+            <p className="text-lg text-gray-400 leading-relaxed">
+              It's not just us saying, it's tested by 3rd party users to perform at industry-leading accuracy (70%+). <a href="https://docs.google.com/presentation/d/185AMobhAN5VM8ekCdShEoB7ORgDGpefdPFRZVgU74UI/edit?slide=id.g3b5d5190cf4_0_1#slide=id.g3b5d5190cf4_0_1" className="text-pink-400 hover:underline">Read the report</a> & <a href="#testimonials" className="text-pink-400 hover:underline">Read the testimonials</a>.
+            </p>
+          </div>
+
           <div className="pt-8 border-t border-white/10">
             <h4 className="text-sm font-semibold uppercase tracking-widest text-gray-500 mb-6">Available Platforms</h4>
             <div className="flex flex-wrap gap-8">
@@ -69,11 +75,6 @@ const FolioRankSpotlight: React.FC = () => {
                 </div>
               ))}
             </div>
-          </div>
-          <div className="pt-4 border-t border-white/10">
-            <p className="text-xl text-gray-400 leading-relaxed">
-              It's not just us saying, it's tested by 3rd party users to perform at industry-leading accuracy (70%+). <a href="https://docs.google.com/presentation/d/185AMobhAN5VM8ekCdShEoB7ORgDGpefdPFRZVgU74UI/edit?slide=id.g3b5d5190cf4_0_1#slide=id.g3b5d5190cf4_0_1" className="text-pink-400 hover:underline">Read the report</a> & <a href="#testimonials" className="text-pink-400 hover:underline">Read the testimonials</a>.
-            </p>
           </div>
           <a
             href="https://foliorankai.bringezback.com/"
