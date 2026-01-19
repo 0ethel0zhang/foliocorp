@@ -38,7 +38,7 @@ const App: React.FC = () => {
         <section id="tools" className="py-20 bg-black/50">
           <div className="container mx-auto px-6">
             <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold mb-4">Precision Utilities</h2>
+              <h2 className="text-4xl font-bold mb-4">Additional Precision Utilities</h2>
               <p className="text-gray-400 max-w-2xl mx-auto">
                 Complement your workflow with specialized tools designed for high-fidelity extraction and professional cropping.
               </p>
