@@ -87,7 +87,7 @@ const FolioRankSpotlight: React.FC = () => {
         </div>
 
         <div className="flex-1 relative justify-center items-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/cx8Jb4n66tQ?si=wZuRthBzz_LaOTDz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/788xuT_anrA?si=3L0EvFI1xtKPzEvS" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
           {/* Decorative badges */}
           <div className="absolute -bottom-16 -left-6 glass p-4 rounded-2xl border border-pink-500/30 shadow-xl hidden sm:block  animate-float">
