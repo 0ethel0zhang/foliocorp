@@ -17,6 +17,7 @@ const FolioRankSpotlight: React.FC = () => {
     { icon: <Star className="w-5 h-5 text-yellow-400" />, title: "Personalized Taste Profile", desc: "Trains a model on your unique aesthetic to cull photos based on learned taste." },
     { icon: <Aperture className="w-5 h-5 text-pink-400" />, title: "Technical Analysis", desc: "Auto-identifies blur, overexposed, and underexposed shots instantly." },
     { icon: <Eye className="w-5 h-5 text-purple-400" />, title: "Smart Eye Detection", desc: "Detects when subjects have closed eyes or awkward expressions." },
+    { icon: <Layers className="w-5 h-5 text-white-400" />, title: "Duplicate Photos Organization", desc: "Collapses duplicate photos with adjustable similarity threshold." },
   ];
 
   const platforms = [
@@ -86,7 +87,7 @@ const FolioRankSpotlight: React.FC = () => {
         </div>
 
         <div className="flex-1 relative justify-center items-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/cx8Jb4n66tQ?si=wZuRthBzz_LaOTDz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cx8Jb4n66tQ?si=wZuRthBzz_LaOTDz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
           {/* Decorative badges */}
           <div className="absolute -bottom-16 -left-6 glass p-4 rounded-2xl border border-pink-500/30 shadow-xl hidden sm:block  animate-float">

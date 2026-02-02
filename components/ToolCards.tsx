@@ -18,7 +18,7 @@ const ToolCards: React.FC = () => {
       title: "Headshotify",
       url: "https://headshotify.bringezback.com",
       logo: "https://raw.githubusercontent.com/0ethel0zhang/folio_magic/refs/heads/main/free_pictures/headshotify_logo.png",
-      placeholder: "https://media.licdn.com/dms/image/v2/D4E03AQERG_HCwoPwug/profile-displayphoto-scale_400_400/B4EZpqS.wSGoAg-/0/1762719952443?e=1769644800&v=beta&t=lNu_8wwbNmpez657rwwxb_eNJdgmtI2hFB3E800pbyc",
+      placeholder: "https://raw.githubusercontent.com/0ethel0zhang/folio_magic/refs/heads/main/free_pictures/Headshotify.png",
       icon: <UserCircle className="w-8 h-8" />,
       tag: "Portrait Formatting",
       desc: "Auto-align faces and crop into squared formats with professional precision.",
@@ -34,7 +34,7 @@ const ToolCards: React.FC = () => {
             <img
               src={tool.placeholder}
               alt={tool.title}
-              className="w-full h-45 object-cover transition-transform duration-700 group-hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-85"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
             <div className="absolute bottom-6 left-6 flex items-center gap-3">
