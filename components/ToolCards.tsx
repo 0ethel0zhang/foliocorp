@@ -8,7 +8,7 @@ const ToolCards: React.FC = () => {
       title: "Folio",
       url: "https://folio.bringezback.com",
       logo: "https://github.com/0ethel0zhang/headshots/raw/refs/heads/main/headshotify_favicon.ico",
-      placeholder: "https://github.com/user-attachments/assets/ea1d4090-f720-4d0c-9fd2-1cdcb2e40053",
+      placeholder: "https://github.com/user-attachments/assets/d79dfdb2-14dc-411b-97d3-31fdbcb1bb1a",
       icon: <Video className="w-8 h-8" />,
       tag: "Video Extraction",
       desc: "Effortlessly grab high-quality stills from video files for quick download and review.",
@@ -44,7 +44,7 @@ const ToolCards: React.FC = () => {
             <img
               src={tool.placeholder}
               alt={tool.title}
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-85"
+              className="w-[70%] h-[90%] object-cover mx-auto my-auto justify-center items-center transition-transform duration-700 group-hover:scale-85"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
             <div className="absolute bottom-6 left-6 flex items-center gap-3">
