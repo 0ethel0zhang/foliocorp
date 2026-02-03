@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Video, UserCircle, Download, Maximize, ArrowUpRight } from 'lucide-react';
+import { Video, UserCircle, Download, Maximize, ArrowUpRight, CirclePlay } from 'lucide-react';
 
 const ToolCards: React.FC = () => {
   const tools = [
@@ -15,6 +15,16 @@ const ToolCards: React.FC = () => {
       features: ["Frame-perfect extraction", "High-res downloads", "Rapid batch processing"]
     },
     {
+      title: "GifFactory",
+      url: "https://gif.bringezback.com",
+      logo: "https://raw.githubusercontent.com/0ethel0zhang/img_to_gif/refs/heads/main/public/Giffactory_logo.png",
+      placeholder: "https://raw.githubusercontent.com/0ethel0zhang/img_to_gif/refs/heads/main/public/Giffactory_logo.png",
+      icon: <CirclePlay className="w-8 h-8" />,
+      tag: "Gif Creation",
+      desc: "Create GIFs from images with ease.",
+      features: ["Customizable speed", "Customizable size", "Forever-loop downloads"]
+    },
+    {
       title: "Headshotify",
       url: "https://headshotify.bringezback.com",
       logo: "https://raw.githubusercontent.com/0ethel0zhang/folio_magic/refs/heads/main/free_pictures/headshotify_logo.png",
@@ -27,7 +37,7 @@ const ToolCards: React.FC = () => {
   ];
 
   return (
-    <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid md:grid-cols-3 gap-8">
       {tools.map((tool, i) => (
         <div key={i} className="glass rounded-3xl overflow-hidden group border border-white/5 hover:border-yellow-500/30 transition-all duration-500 flex flex-col">
           <div className="relative h-64 overflow-hidden">
