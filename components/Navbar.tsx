@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
           <a href="#foliorank" className="hover:text-white transition-colors">FolioRankAI</a>
           <a href="#tools" className="hover:text-white transition-colors">More Tools</a>
           <a
-            href="https://foliorankai.bringezback.com/"
+            href="https://tools.bringezback.com/#foliorank"
             className="px-5 py-2.5 bg-pink-300 text-black rounded-full hover:bg-gray-200 transition-colors"
           >
             Get Started with FolioRankAI

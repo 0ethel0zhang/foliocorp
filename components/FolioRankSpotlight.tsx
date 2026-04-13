@@ -77,13 +77,22 @@ const FolioRankSpotlight: React.FC = () => {
               ))}
             </div>
           </div>
-          <a
-            href="https://foliorankai.bringezback.com/"
-            className="inline-flex px-8 py-3 bg-pink-300 text-black font-bold rounded-xl hover:bg-pink-50 transition-all items-center gap-2 mt-4"
-          >
-            Launch FolioRankAI
-            <ArrowRight className="w-4 h-4" />
-          </a>
+          <div className="flex flex-col gap-2 w-fit">
+            <a
+              href="https://foliorankai.bringezback.com/"
+              className="inline-flex px-8 py-3 bg-pink-300 text-black font-bold rounded-xl hover:bg-pink-50 transition-all items-center gap-2 mt-4"
+            >
+              Launch FolioRankAI Web on Any Device
+              <ArrowRight className="w-4 h-4" />
+            </a>
+            <a
+              href="https://apps.apple.com/us/app/foliorankai-pro/id6761208744?mt=12"
+              className="inline-flex px-8 py-3 bg-pink-300 text-black font-bold rounded-xl hover:bg-pink-50 transition-all items-center gap-2 mt-4"
+            >
+              Download FolioRankAI Pro for macOS
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
 
         <div className="flex-1 relative justify-center items-center">
